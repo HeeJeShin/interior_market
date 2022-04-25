@@ -20,7 +20,6 @@ export const Wrapper = styled.div`
   height: 100%;
   @media (min-width: 768px) and (max-width: 1190px) {
     flex-wrap: wrap;
-
     display: flex;
     justify-content: space-around;
   }

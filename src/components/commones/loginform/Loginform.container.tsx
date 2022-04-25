@@ -23,6 +23,7 @@ export default function LoginForm() {
   function onChangeMyEmail(event: ChangeEvent<HTMLInputElement>) {
     setMyEmail(event.target.value);
   }
+
   function onChangeMyPassword(event: ChangeEvent<HTMLInputElement>) {
     setMyPassword(event.target.value);
   }
@@ -42,6 +43,7 @@ export default function LoginForm() {
   function onClickSignup() {
     router.push("/signup");
   }
+
   // 슬라이더 코드..
 
   return (
